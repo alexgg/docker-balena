@@ -7,7 +7,7 @@ This image will install an operating system ready to build [balenaOS](https://ww
 
 ```
 export RELEASE=warrior
-docker build -t docker-balena:$RELEASE --build-arg FSL_BRANCH=$RELEASE --no-cache .
+docker build -t docker-balena:$RELEASE --no-cache .
 ```
 
 # Use:
